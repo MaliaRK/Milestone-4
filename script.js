@@ -57,36 +57,3 @@ document.addEventListener('DOMContentLoaded', function () {
         generatedOutput.style.display = 'none';
     }
 });
-//     const generatedOutput = document.getElementById('output');
-//     if (generatedOutput) {
-//         generatedOutput.innerHTML = output;
-//         const editButton = document.getElementById('edit');
-//         if (editButton) {
-//             editButton.addEventListener('click', () => {
-//                 const form = document.getElementById('form');
-//                 if (form) {
-//                     form.style.display = 'block';
-//                 }
-//                 generatedOutput.style.display = 'none';
-//             });
-//         }
-//     } else {
-//         console.error('Output element not found');
-//     }
-//     const form = document.getElementById('form');
-//     if (form) {
-//         form.style.display = 'none';
-//     }
-//     if (generatedOutput) {
-//         generatedOutput.style.display = 'block';
-//     }
-// });
-// // Initial setup to hide output section and show form
-// document.addEventListener('DOMContentLoaded', () => {
-//     const generatedOutput = document.getElementById('output');
-//     const form = document.getElementById('form');
-//     if (generatedOutput && form) {
-//         generatedOutput.style.display = 'none';
-//         form.style.display = 'block';
-//     }
-// });
